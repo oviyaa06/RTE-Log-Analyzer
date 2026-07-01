@@ -1,0 +1,8 @@
+pyarrow
+duckdb
+pandas
+matplotlib
+mplcursors
+tzlocal
+PySide6
+openpyxl

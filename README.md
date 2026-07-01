@@ -1,6 +1,6 @@
 # RTE-Log-Analyzer
 
-#Problem statement
+Problem statement
 
 •	RTE log files contain a massive volume of data, making analysis time-consuming.
 
@@ -12,7 +12,7 @@
 
 •	Processing large log datasets can lead to performance and memory challenges during analysis.
 
-#Proposed Solution
+Proposed Solution
 
 •	Developed a centralized RTE Log Analyzer to analyze large RTE datasets stored in Parquet files.
 
@@ -24,13 +24,13 @@
 
 •	Provides interactive graphs and export capabilities while using memory-efficient streaming to handle large datasets.
 
-#Files in Code
+Files in Code
 
 •	NGridAnalysisWindow.py acts as the main RTE Log Analyzer application, providing a graphical interface for loading Parquet files, selecting time ranges, extracting and categorizing parameters from RTE messages, searching parameters, generating interactive graphs, exporting data to CSV and Excel, and performing memory-efficient analysis of large datasets.
 
 •	requirements.txt – Stores all Python package dependencies required to run the RTE Log Analyzer. 
 
-#Functionalities
+Functionalities
 
 •	Time-Based Analysis – Analyze Parquet data within a user-selected start and end time range.
 
